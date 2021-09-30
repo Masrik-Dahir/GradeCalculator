@@ -11,7 +11,9 @@ def grade(dic: dict):
     return grade*100
 
 if __name__ == '__main__':
-    
+    # In the dictionary first part of the value is the percentage of grade,
+    # The second part of the value is the grade you received on the category
+
     dic_303 = {"Homework":  [.1,[1,1]],
            "Classwork": [.1,[1,1]],
            "Quiz_1":  [.1, [0.895]],
