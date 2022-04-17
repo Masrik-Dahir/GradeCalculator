@@ -16,19 +16,19 @@ if __name__ == '__main__':
 
     dic_303 = {"Homework":  [.1,[1,1]],
            "Classwork": [.1,[1,1]],
-           "Quiz_1":  [.1, [0.895]],
-           "Quiz_2": [.1, [1]],
-           "Quiz_3": [.1,[1]],
-           "Mid_term": [.25, [.9]],
-           "Final":[.25,[.9]]
+           "Quiz_1":  [.1, [41/54]],
+           "Quiz_2": [.1, [63/64]],
+           "Quiz_3": [.1,[52/64]],
+           "Mid_term": [.25, [61/64]],
+           "Final":[.25,[.83]]
            }
 
-    dic_401 = {"Programming_Assignment": [.4, [0.75, 1, 1, 1]], #4 Assignments
-               "Theory_Assignment": [.1, [.8, 1]], #2 Assignments
+    dic_401 = {"Programming_Assignment": [.4, [0.65, .90, 1, 1]], #4 Assignments
+               "Theory_Assignment": [.1, [.8, .934]], #2 Assignments
                "Test_1": [.15, [.88]],
-               "Test_2": [.15, [.80]],
-               "Test_3": [.2, [.80]],
+               "Test_2": [.15, [.72]],
+               "Test_3": [.2, [80/93]],
                }
 
 
-    print(grade(dic_401))
+    print(grade(dic_303))
